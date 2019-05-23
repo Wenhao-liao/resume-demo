@@ -1,2 +1,3 @@
 # git-demo-2
-这是一个示例仓库
+展示地址
+https://wenhao-liao.github.io/git-demo-2/index.html
