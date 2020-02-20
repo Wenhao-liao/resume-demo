@@ -157,7 +157,7 @@ padding: 5px 10px
 }
 .banner {
 height: 515px;
-background-image: url(./img/rs-cover.jpg);
+background-image: url(../img/rs-cover.jpg);
 background-position: center center;
 background-size: cover;
 }
@@ -379,3 +379,10 @@ section.portfolio .works > .small{
 position:absolute;
 }
 
+.swiper-container {
+  width: 600px;
+  height: 300px;
+} 
+.swiper-slide{
+  background-color: white;
+}
