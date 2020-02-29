@@ -4,6 +4,10 @@
     <title>个人简历</title>
     <script src="//at.alicdn.com/t/font_1193979_5vcy7nuls0n.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/17.1.1/Tween.min.js"></script>
+    <!-- 存储服务 -->
+    <script src="//cdn.jsdelivr.net/npm/leancloud-storage@4.2.0/dist/av-min.js"></script>
+    <!-- 即时通讯服务 -->
+    <script src="//cdn.jsdelivr.net/npm/leancloud-realtime@5.0.0-beta.2/dist/realtime-browser.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/welcome.css">
   </head>
@@ -166,6 +170,16 @@
       </div>
 
     </section>
+    <section class="message">
+      <h2>留言</h2>
+      <ol id='messageList'>
+      </ol>
+      <form id="postMessage">
+        <input type="text" name='name'>
+        <input type="text" name='content'>
+        <input type="submit" value="提交">
+      </form>
+    </section>
 
     <!-- 模块化 -->
     <script src="./js/auto-slide-up.js"></script>
@@ -173,5 +187,6 @@
     <script src="./js/topbar.js"></script>
     <script src="./js/welcome.js"></script>
     <script src="./js/works.js"></script>
+    <script src="./js/message.js"></script>
   </body>
 </html>
